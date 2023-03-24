@@ -1,0 +1,25 @@
+nav {
+    display: block;
+    justify-content: space-around;
+}
+
+.button {
+    transition: ease-in .3s;
+    margin-bottom: 2em;
+    margin-left: 5em ;
+    margin-top: 3em;
+    border-radius: 3px;
+    border-bottom: 3.5px solid #f368a0;
+    background-color: #f8afb848;
+    justify-content: center;
+    align-content: initial;
+}
+
+.button > a:hover {
+    color: #a8466d;
+}
+
+.button:hover {
+    background-color: #faafbf;
+    transform: scale(1.5);
+}
